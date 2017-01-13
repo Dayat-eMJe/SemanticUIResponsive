@@ -1,0 +1,65 @@
+@media only screen and (max-width: 750px){
+	#cards{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 1049px){
+	#koeallcars{
+		display:none;
+	}
+	#h1style{
+		display: none;
+	}
+}
+#img{
+	margin-top:3px;
+	margin-left:5px; 
+}
+ #koeallcars1{
+ 	width: 0px;
+ 	height: 0px;
+ }
+#search{
+	margin-top: 10px;
+	margin-left: 90px;
+	overflow: hidden;
+	margin-right: 70px;
+}
+.twocolumn{
+	font-family: 'Rubik', sans-serif;
+}
+a{
+	color: black;
+}
+.footer{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a:hover{
+	text-transform: uppercase;
+	color: #b70920;
+}
+#meta{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#cardlike{
+	margin-top: 7px;
+}
+.header a:hover{
+	color: red;
+}
+.jumbotron{
+    position: relative; 
+}
+#h1style{
+	position: absolute; 
+	top: -13px; 
+    left: 392px;
+    font-family: 'Alfa Slab One', cursive;
+	font-family: 'Shrikhand', cursive;
+    letter-spacing: 5px; 
+    color:#313235;		
+}
+.jumbotron h3{
+	margin-top: -99px;
+}
