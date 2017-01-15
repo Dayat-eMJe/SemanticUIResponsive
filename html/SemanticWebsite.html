@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Koenigsegg</title>
-		<link rel="stylesheet" type="text/css" href="../../dist/semantic.min.css">
+		<link rel="stylesheet" type="text/css" href="../dist/semantic.min.css">
 		<link rel="stylesheet" type="text/css" href="../css/SemanticWebsiteCssFile.css">
 		<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Shrikhand" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
@@ -10,17 +10,17 @@
 		<meta name="description" content="Brief description about Koenigsegg">
 	</head>
 	<body>		
-		<header class="ui stackable icon menu">  <!-- Main Heading content of webpage -->
-			<a href="#" id="logoimg"><img id="img" src="../images/koenigsegg-logo-black.jpg"></a> <!-- Logo of the webpage-->
+		<header class="ui stackable icon menu" id="xyz"> 
+			<a href="#" id="logoimg"><img id="img" src="../images/koenigsegg-logo-black.jpg"></a> 
 			<div id="search" class="ui large search">
 		  		<div class="ui icon input">
 			    	<input class="prompt" style="width:480px;" type="text" placeholder="Search.....">
 			    	<i class="search icon"></i>
 		  		</div>
 			</div>
-			<!-- Links to the sign up sign sign and any other content of the page -->
+			
 			<div class="item">
-            	<a href="Registration_Form.html"><i class="add user icon"></i> <!--anchor tag which links to the registration page of a particular user -->
+            	<a href="Registration_Form.html"><i class="add user icon"></i> 
             	Sign Up</a>
         	</div>
 			<div class="item">
@@ -41,6 +41,35 @@
             	Sign In</a>
         	</div>
 	  	</header>
+	  	<div class="ui top fixed stackable labelled icon menu" id="mobile">
+	  		  <a href="#" id="logoimg"><img id="img" src="../images/koenigsegg-logo-black.jpg"></a> 	
+              <div class="item" id="sidebarmenu">
+                <i class="sidebar medium icon"></i><span style="font-size:20px">Menu</span>
+                <div id="sidemenu" class="ui top sidebar vertical left menu mobsidebar" style="margin-top:10px;">
+                    <div class="item">
+            			<a href="Registration_Form.html"><i class="add user icon"></i> 
+            				Sign Up</a>
+        			</div>
+					<div class="item">
+		            	<a href="#"><i class="car icon"></i>
+		            	Cars</a>
+		        	</div>
+		        	
+		        	<div class="item">
+		            	<a href="#"><i class="info icon"></i>
+		            	Find Us</a>
+		        	</div>
+		        	<div class="item">
+		            	<a href="#"><i class="shop icon"></i>
+		            	Shop</a>
+		        	</div>
+		        	<div class="item">
+		            	<a href="#"><i class="sign in icon"></i>
+		            	Sign In</a>
+		        	</div>		
+		        </div>
+              </div>
+          </div>
 		<!-- Image and the brief description of that particular image and if briefly called as jumbotron-->
 	  	<div class="jumbotron"> 
 	  		<img id="koeallcars" style=" width:1349px; height:500px;" src="../images/koenigsegg-all-cars.jpg">
@@ -49,7 +78,7 @@
 	  	</div>
 		<!-- Latest Blog posts with the help of cards-->
 	  	<div class="ui container" style="padding-top:50px;">
-			<h1 style="text-align:center;letter-spacing:10px;margin-bottom: 35px;">THE LATEST BLOG POSTS</h1>
+			<h1 id="latest" style="text-align:center;letter-spacing:10px;margin-bottom: 35px;">THE LATEST BLOG POSTS</h1>
 			<div class="ui stackable grid">
 	  			<div class="three column row"><!-- 3 card column-->
 	  				<!-- card 1 which contains the description about the upcoming video series about koenigsegg -->
@@ -132,49 +161,103 @@
 			<div class="two column row">
 				
 				<div class="column">
-					<div class="row">
-						<!-- Content about the history of the koenigsegg car-->
-						<div class="column">
-							<h1>The History of Koenigsegg</h1>
-							<p>The company was founded in 1994 in Sweden by Christian von Koenigsegg, with the intention of producing a "world-class" supercar. Many years of development and prototyping led to the company's first street-legal production car delivery in 2002.
-							In 2006 Koenigsegg began production of the CCX, which uses an engine created in-house especially for that vehicle. The CCX is street-legal in most countries, including the US.
-							In March 2009 the Koenigsegg CCXR was chosen by Forbes to be one of the most beautiful cars in history.[2]
-							In December 2010 the Koenigsegg Agera won the BBC Top Gear Hypercar of the Year Award.
-							</p>
-						</div>	
+					<div class="ui shape s1">
+						<div class="sides">
+							<div class="active side">
+								<div class="row">
+									<!-- Content about the history of the koenigsegg car-->
+									<div class="column">
+										<h1>The History of Koenigsegg</h1>
+										<p>The company was founded in 1994 in Sweden by Christian von Koenigsegg, with the intention of producing a "world-class" supercar. Many years of development and prototyping led to the company's first street-legal production car delivery in 2002.
+										In 2006 Koenigsegg began production of the CCX, which uses an engine created in-house especially for that vehicle. The CCX is street-legal in most countries, including the US.
+										In March 2009 the Koenigsegg CCXR was chosen by Forbes to be one of the most beautiful cars in history.[2]
+										In December 2010 the Koenigsegg Agera won the BBC Top Gear Hypercar of the Year Award.
+										</p>
+									</div>	
+								</div>
+								
+							</div>
+
+							<div class="side">
+								<div class="row">
+									<!-- Content about the history of the koenigsegg car-->
+									<div class="column">
+										<h1>The History of Koenigsegg</h1>
+										<p>The company was founded in 1994 in Sweden by Christian von Koenigsegg, with the intention of producing a "world-class" supercar. Many years of development and prototyping led to the company's first street-legal production car delivery in 2002.
+										In 2006 Koenigsegg began production of the CCX, which uses an engine created in-house especially for that vehicle. The CCX is street-legal in most countries, including the US.
+										In March 2009 the Koenigsegg CCXR was chosen by Forbes to be one of the most beautiful cars in history.[2]
+										In December 2010 the Koenigsegg Agera won the BBC Top Gear Hypercar of the Year Award.
+										</p>
+									</div>	
+								</div>
+							</div>
+
+						</div>
 					</div>
 					<div class="row">
 						<div class="column">
 							<!-- This image shows Koenigsegg Regera which broke the top speed record recently-->
 							<img src="../images/koe2.jpg" style="float:right;margin-top:30px">
 						</div>
-					</div>		
+					</div>							
 				</div>
-
+				
 				<div class="column">
-					<h1>Top Speeds</h1>
-					<div class="row">
-						<div class="column" style="margin-top:10px;">
-							<!-- Detailed content about the koenigsegg regera which states the speed which broke the record -->
-							<h3>Koenigsegg Regera Records Top Speed</h3>
-							<p>Koenigsegg states that the car has an electronically limited top speed of 410 km/h (255 mph), is capable of reaching 100 km/h (62 mph) in 2.7 seconds, 300 km/h (190 mph) in 10.9 seconds, and a speed of 400 km/h (250 mph) in 20 seconds. Koenigsegg also claims that the acceleration from 150 to 250 km/h (from 93 to 155 mph) requires 3.9 seconds</p>
-						</div>
+					<div class="ui shape s2">
+						<div class="sides">
+							<div class="active side">
+								<h1>Top Speeds</h1>
+								<div class="row">
+									<div class="column" style="margin-top:10px;">
+										<!-- Detailed content about the koenigsegg regera which states the speed which broke the record -->
+										<h3>Koenigsegg Regera Records Top Speed</h3>
+										<p>Koenigsegg states that the car has an electronically limited top speed of 410 km/h (255 mph), is capable of reaching 100 km/h (62 mph) in 2.7 seconds, 300 km/h (190 mph) in 10.9 seconds, and a speed of 400 km/h (250 mph) in 20 seconds. Koenigsegg also claims that the acceleration from 150 to 250 km/h (from 93 to 155 mph) requires 3.9 seconds</p>
+									</div>
+								</div>
+								
+								<div class="row">
+									<div class="column" style="margin-top:10px;">
+										<!-- detailed description of Koenigsegg regera-->
+										<h3>About Koenigsegg Regera</h3>
+										<p>Koenigsegg Regera is a limited production, plug-in hybrid sports car manufactured by Swedish manufacturer of high-performance sports cars Koenigsegg. It was unveiled at the 2015 Geneva Motor Show.The name Regera is a Swedish verb, meaning "to reign" or "to rule." Only 80 units will be built, of which 40 have already been sold as of March 2016, each costing approximately US$1.9 million</p>	
+									</div>
+								</div>	
+								<div class="row">
+									<div class="column" style="margin-top:10px;">
+										<!-- features of Koenigsegg regera which broke the record recently -->
+										<h3>Koenigsegg Regera Features</h3>
+										<p>Christian von Koenigsegg believes that a good design of the day-time running lights (DRL) on a vehicle gives it character, and developed a DRL system that is supposed to resemble a constellation with the carbon-fiber background resembling the night sky.
+										Koenigsegg claims that the Regera is the first "fully-robotized" car. The vehicle features hydraulic pumps and accumulators to control the active front and rear wings, as well as active chassis control and lifting. Hydraulic lifters were added to the already existing pumps and accumulators to allow for all body panels on the vehicle to be remotely operated.</p>
+									</div>
+								</div>
+							</div>
+							<div class="side">
+								<h1>Top peeds</h1>
+								<div class="row">
+									<div class="column" style="margin-top:10px;">
+										<!-- Detailed content about the koenigsegg regera which states the speed which broke the record -->
+										<h3>Koenigsegg egera Records Top Speed</h3>
+										<p>Koenigsegg states that the car has an electronically limited top speed of 410 km/h (255 mph), is capable of reaching 100 km/h (62 mph) in 2.7 seconds, 300 km/h (190 mph) in 10.9 seconds, and a speed of 400 km/h (250 mph) in 20 seconds. Koenigsegg also claims that the acceleration from 150 to 250 km/h (from 93 to 155 mph) requires 3.9 seconds</p>
+									</div>
+								</div>	
+								<div class="row">
+									<div class="column" style="margin-top:10px;">
+										<!-- detailed description of Koenigsegg regera-->
+										<h3>About Koenigsegg egera</h3>
+										<p>Koenigsegg Regera is a limited production, plug-in hybrid sports car manufactured by Swedish manufacturer of high-performance sports cars Koenigsegg. It was unveiled at the 2015 Geneva Motor Show.The name Regera is a Swedish verb, meaning "to reign" or "to rule." Only 80 units will be built, of which 40 have already been sold as of March 2016, each costing approximately US$1.9 million</p>	
+									</div>
+								</div>	
+								<div class="row">
+									<div class="column" style="margin-top:10px;">
+										<!-- features of Koenigsegg regera which broke the record recently -->
+										<h3>Koenigsegg egera Features</h3>
+										<p>Christian von Koenigsegg believes that a good design of the day-time running lights (DRL) on a vehicle gives it character, and developed a DRL system that is supposed to resemble a constellation with the carbon-fiber background resembling the night sky.
+										Koenigsegg claims that the Regera is the first "fully-robotized" car. The vehicle features hydraulic pumps and accumulators to control the active front and rear wings, as well as active chassis control and lifting. Hydraulic lifters were added to the already existing pumps and accumulators to allow for all body panels on the vehicle to be remotely operated.</p>
+									</div>
+								</div>
+							</div>	
+						</div>	
 					</div>	
-					<div class="row">
-						<div class="column" style="margin-top:10px;">
-							<!-- detailed description of Koenigsegg regera-->
-							<h3>About Koenigsegg Regera</h3>
-							<p>Koenigsegg Regera is a limited production, plug-in hybrid sports car manufactured by Swedish manufacturer of high-performance sports cars Koenigsegg. It was unveiled at the 2015 Geneva Motor Show.The name Regera is a Swedish verb, meaning "to reign" or "to rule." Only 80 units will be built, of which 40 have already been sold as of March 2016, each costing approximately US$1.9 million</p>	
-						</div>
-					</div>
-					<div class="row">
-						<div class="column" style="margin-top:10px;">
-							<!-- features of Koenigsegg regera which broke the record recently -->
-							<h3>Koenigsegg Regera Features</h3>
-							<p>Christian von Koenigsegg believes that a good design of the day-time running lights (DRL) on a vehicle gives it character, and developed a DRL system that is supposed to resemble a constellation with the carbon-fiber background resembling the night sky.
-							Koenigsegg claims that the Regera is the first "fully-robotized" car. The vehicle features hydraulic pumps and accumulators to control the active front and rear wings, as well as active chassis control and lifting. Hydraulic lifters were added to the already existing pumps and accumulators to allow for all body panels on the vehicle to be remotely operated.</p>
-						</div>
-					</div>
 				</div>
 
 			</div>
@@ -194,5 +277,23 @@
 			</p>
 			</div>
 		</footer>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js"></script>
+		<script>
+			$('#sidebarmenu').click(function()
+				{
+   					$('.mobsidebar').sidebar('toggle');
+ 				}
+ 			  );
+			setInterval(function() 
+			{
+  				$('.ui.shape.s1').shape('flip down');
+			},5000);
+			setInterval(function() 
+			{
+  				$('.ui.shape.s2').shape('flip down');
+			},5000);	
+		</script>
 	</body>
 </html>

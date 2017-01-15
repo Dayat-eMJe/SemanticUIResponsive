@@ -1,6 +1,21 @@
-@media only screen and (max-width: 750px){
+#mobile{
+	display: none;
+}
+#xyz{
+ 	display: flex;
+ }
+@media only screen and (max-width: 768px){
 	#cards{
 		width: 100%;
+	}
+	#xyz{
+		display: none;
+	}
+	#mobile{
+		display: flex;
+	}
+	#latest{
+		margin-top: 75px;
 	}
 }
 @media only screen and (max-width: 1049px){
@@ -10,7 +25,8 @@
 	#h1style{
 		display: none;
 	}
-}
+} 
+
 #img{
 	margin-top:3px;
 	margin-left:5px; 
